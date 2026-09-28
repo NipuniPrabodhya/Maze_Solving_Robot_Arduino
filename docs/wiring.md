@@ -43,10 +43,9 @@ For safe testing:
 ```text
 Laptop USB → Arduino Uno
 Battery pack → L298N motor power
+
 Do not power motors only from the Arduino USB cable.
-
-
-## 4. Ultrasonic Sensor Connections
+4. Ultrasonic Sensor Connections
 The robot uses three HC-SR04 ultrasonic sensors: front, left, and right.
 Front Sensor
 HC-SR04 Pin	Arduino Uno Pin
@@ -73,14 +72,14 @@ ECHO	D13
 
 
 5. Sensor Placement
-Front Ultrasonic Sensor
-   ↑
+          Front Ultrasonic Sensor
+                    ↑
 
 Left Ultrasonic Sensor ← Robot → Right Ultrasonic Sensor
- Left Motor        Right Motor
+
+          Left Motor        Right Motor
 
 6. Full Pin Summary
-
 Function	Arduino Pin
 Motor ENA	D5
 Motor IN1	D8
